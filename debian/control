@@ -12,9 +12,7 @@ Build-Depends: debhelper (>= 9),
                qt5-default,
                qtbase5-dev,
                qtfeedback5-dev,
-               qtlocation5-dev,
                libqt5sensors5-dev,
-               qtpositioning5-dev,
 Standards-Version: 3.9.4
 Homepage: https://launchpad.net/qtubuntu-sensors
 # if you don't have have commit access to this branch but would like to upload
@@ -29,7 +27,5 @@ Pre-Depends: ${misc:Pre-Depends},
 Multi-Arch: same
 Depends: ${misc:Depends},
          ${shlibs:Depends},
-Breaks: libqt5location5-plugins (<< 5.0~git20130805-0ubuntu4)
-Replaces: libqt5location5-plugins (<< 5.0~git20130805-0ubuntu4)
 Description: QtSensors plugins for Android sensors
  QtSensors plugins for the qtubuntu (hybris) sensors backend

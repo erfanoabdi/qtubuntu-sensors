@@ -1,3 +1,9 @@
+qtubuntu-sensors (0.8+ubports) xenial; urgency=medium
+
+  * Moved position to separate package
+
+ -- Erfan Abdi <erfangplus@gmail.com>  Fri, 5 Jun 2020 15:59:40 +0100
+
 qtubuntu-sensors (0.7+ubports) xenial; urgency=medium
 
   * Imported to UBports
